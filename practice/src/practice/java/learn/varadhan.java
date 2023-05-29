@@ -7,11 +7,7 @@ public class varadhan {
 		int mi=100,gt=190;
 		ipl.play_qualifier(mi,gt);
 		ipl.play_qualifier2(mi,gt);
-
-
-
-
-
+		
 
 }
 	private void play_qualifier2(int mi, int gt) {
