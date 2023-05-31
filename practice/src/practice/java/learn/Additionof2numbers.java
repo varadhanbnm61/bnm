@@ -1,21 +1,20 @@
 package practice.java.learn;
 
-public class Additionof2numbers {
-
+public class Additionof2numbers{
 	public static void main(String[] args) {
+		int i=10;
+		int j;
 		
-		int no1=1;
-		int no2=0;
-		while(no1<=5)
+		
+		if(i==10)		
 		{
-			no2=no2+no1;
-			no1=no1+1;
-			
 		
-			
+			j=20;	
+			System.out.println("over  "+j);
+		
 		}
-		System.out.println(no2);
+		
 
+		
 	}
-
 }
