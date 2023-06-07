@@ -1,5 +1,6 @@
 package practice.java.learn;
-//print the program using while loop---1) 1   1   1   1   1
+
+
 
 public class Program1 {
 
