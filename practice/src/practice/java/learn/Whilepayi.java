@@ -11,29 +11,20 @@ public class Whilepayi {
 	varadhan.Find_palindrome();
 
 	}
-
 	private void Find_palindrome() {
-		int no=171;
-		int no1=no;
-		for(;no>0;no=no/10) {
-			System.out.print(no%10);
-			
-			no=no*10;
+	
+	int no1=1221;
+	int no2=no1;
+	int no3=0;
+	{
+		for(;no1>0;no1=no1/10)
+		{
+			int rem=no1%10;
+			no3=(no3*10)+rem;
 		}
-		
-		System.out.println(no);
-			if(no1==no) {
-				System.out.println("given no is palindrome");
-			}
-			else {
-				System.out.println("given no is not palindrome");
-				
-				
-			}
-		
-		
-	}
-
+	System.out.println(no3);
+	System.out.println(no2);
+	}}
 	private void Divisors_of_given_number() {
 		int div=2;
 		int no=100;
