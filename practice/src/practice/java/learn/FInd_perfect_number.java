@@ -6,31 +6,46 @@ public class FInd_perfect_number {
 		
 		
 		FInd_perfect_number varadhan=new FInd_perfect_number();
+		int divi=varadhan.Find_divisors(6);
+		//System.out.println(divi);
 		int result=varadhan.Find_add();
-		System.out.println(result);
+		//System.out.println(result);
 		int result1=varadhan.Find_multi();
-		System.out.println(result1);
+		//System.out.println(result1);
 		if(result==result1) {
-			System.out.println("given number is perfect number");
+			//System.out.println("given number is perfect number");
 		}
 		else {
-			System.out.println("given number is not  perfect number");
+			//System.out.println("given number is not  perfect number");
 		}
 		
 			
 		}
+	
+	
 		
-	{
-			int no=6;
-			int div=1;
-			while(div<no)
-			{
-				if(no%div==0) {
-					System.out.println("6-divisors" + div);
-				}
-				div=div+1;
-		}
+	private int Find_divisors(int no) {
+		
+	    int div = 1;
+	    int add = 0;
+	    while (div<=no/2) {
+	        if (no%div==0) {
+	            System.out.println(div);
+	            add = add + div;
+	            System.out.println(add);
+	        }
+	        div = div + 1;
+	    }
+	    return add;
 	}
+		
+		
+	
+
+
+
+	
+	
 			
 		
 		private  int Find_add() {
