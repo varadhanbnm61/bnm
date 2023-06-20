@@ -1,6 +1,6 @@
 package Namakal1;
 
-public abstract class Government {
+public abstract class Government{
 	
 	public abstract void raid();
 	

@@ -1,6 +1,9 @@
 package practice.java.learn;
 
-public class Bharani {
+import Trichy.Central_Govt;
+import Trichy.FranceGovt;
+
+public class Bharani implements FranceGovt,Central_Govt{
 
 	public static void main(String[] args) {
 
@@ -37,5 +40,15 @@ public class Bharani {
 		    //System.out.println("The given number is "+arm); 
 		  
 	}
+		@Override
+		public void keep_visa() {
+			// TODO Auto-generated method stub
+			
+		}
+		@Override
+		public void go_by_flight() {
+			// TODO Auto-generated method stub
+			
+		}
 
 }
