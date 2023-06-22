@@ -8,7 +8,6 @@ public interface EmployeeRules {
 	public void maintainHours();//by default they are abstract
 	public void relocate();
 	public void report();
-	public void dress();
 	
 	
 	

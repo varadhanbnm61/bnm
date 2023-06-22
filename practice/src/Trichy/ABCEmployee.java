@@ -1,17 +1,21 @@
 package Trichy;
 
-public class ABCEmployee implements EmployeeRules {
+public class ABCEmployee implements EmployeeRules, {
     
 	public static void main(String[] args) {
 		
 		ABCEmployee abc=new  ABCEmployee();
 		abc.maintainHours();
-		abc.dress();
+
 		abc.relocate();
 	
 	
 		System.out.println(ABCEmployee.leaves);
 		System.out.println(ABCEmployee.salary);
+		
+		
+		
+		
 
 	}
 
@@ -30,11 +34,7 @@ public class ABCEmployee implements EmployeeRules {
 		
 	}
 
-	@Override
-	public void dress() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 
 
