@@ -9,8 +9,7 @@ public class Theatre {//assignment 0
 		System.out.println("After booking ticket " + balance);
 	
 	}
-	
-	private int bookTicket(int haveamount) {
+	 int bookTicket(int haveamount) {
 		int ticket_price=120;
 		int balance=haveamount-ticket_price;
 		return balance;
