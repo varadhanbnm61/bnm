@@ -5,7 +5,7 @@ public interface Trafficrules {
 	String trafficcommisioner="kavin";
 	
 	
-	void dontGoByDieselVehicle();
+	void GoByDieselVehicle();
 	void goByBicycle();
 	void varadhan1();
 	

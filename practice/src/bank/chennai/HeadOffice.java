@@ -8,7 +8,7 @@ abstract class HeadOffice {
 	}
 	public int pay_tax(int amount) {
 		
-		System.out.println(amount);
+		System.out.println(amount); 
 		return amount;
 	}
 	public abstract void receive_Customers();

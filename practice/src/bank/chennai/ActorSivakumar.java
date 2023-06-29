@@ -1,14 +1,16 @@
 package bank.chennai;
 
-public class ActorSivakumar implements Actor {
+class ActorSivakumar implements Actor {
 static String address="coimbatore";
-int i=65;
+int age=65;
+String car;
 
-	public ActorSivakumar(int i, String string) {
+	ActorSivakumar(int age, String car) {
 		
 		
 		
-		this.i=i;
+		this.age=age;
+		this.car=car;
 	// TODO Auto-generated constructor stub
 }
 
@@ -19,10 +21,10 @@ int i=65;
 		as.dance();
 		as.sing();
 		System.out.println(as.address);
-		System.out.println(as.i);
+		System.out.println(as.age);
 		
 		Actor ac=new ActorSivakumar(65, "audi car");
-		System.out.println(address);
+		System.out.println(ac.address);
 	}
 	
 	void Speaking() {

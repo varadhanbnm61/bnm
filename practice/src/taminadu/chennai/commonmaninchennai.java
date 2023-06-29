@@ -13,11 +13,11 @@ public class commonmaninchennai implements Trafficrules{
 		
 	}
 
-	@Override
-	public void dontGoByDieselVehicle() {
+	//@Override
+	//public void dontGoByDieselVehicle() {
 		// TODO Auto-generated method stub
-		System.out.println("goByDieselVehicle");
-	}
+	//	System.out.println("goByDieselVehicle");
+//	}
 
 	@Override
 	public void goByBicycle() {
@@ -29,6 +29,12 @@ public class commonmaninchennai implements Trafficrules{
 	public void varadhan1() {
 		// TODO Auto-generated method stub
 		System.out.println("varadhan1method");
+	}
+
+	@Override
+	public void GoByDieselVehicle() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

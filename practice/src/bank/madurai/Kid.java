@@ -1,6 +1,6 @@
 package bank.madurai;
 
-public class Kid {
+public class Kid  extends Mother{
 
 	
 	String name="veera";
@@ -8,7 +8,7 @@ public class Kid {
 		// TODO Auto-generated method stub
 Kid kid=new Kid();
 kid.study();
-kid.work();
+//kid.work();
 
 
 
@@ -17,9 +17,11 @@ public void work()
 {
 	System.out.println("work kid class");
 	System.out.println(name);
+	System.out.println(super.name);
 	
 }
 public void study() {
+	work();
 	
 	
 	System.out.println("study mehod in kid class"

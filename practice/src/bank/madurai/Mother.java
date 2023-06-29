@@ -10,8 +10,8 @@ public class Mother extends Grandma{
 	public void work()
 	{
 		
-		System.out.println("mother's name"+name);
-		System.out.println("Grandma's name"+super.name);
+		System.out.println("mother's name"+ name);
+		System.out.println("Grandma's name"+ super.name);
 		super.work();
 		
 		

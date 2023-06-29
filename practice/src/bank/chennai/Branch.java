@@ -4,8 +4,11 @@ public class Branch  extends Branch_plan{
 
 	public static void main(String[]args) {
 		Branch varadhan=new Branch();
+		
 		varadhan.check_accounts(1000);
-		varadhan.pay_tax(2000);
+		int Amoount=varadhan.pay_tax(2000);
+		//varadhan.pay_tax(2000);
+		System.out.println(Amoount);
 		varadhan.do_interview();
 		
 		

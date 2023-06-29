@@ -1,6 +1,6 @@
 package bank.chennai;
 
-public interface Actor {
+interface Actor {
 
 	
 	boolean makeUpRequired=true;
