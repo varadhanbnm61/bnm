@@ -1,4 +1,4 @@
-package practice.java.learn;//using while loop
+package practice.java.learn;//using while loop 
 
 import java.util.Scanner;
 public class Array2 {
