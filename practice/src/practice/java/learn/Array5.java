@@ -11,7 +11,7 @@ public class Array5 {
 		
 		
 		
-	int[]ar=new int[len];
+	int[]ar=new int[10];
 	
 	int total=0;
 	for(int i=0;i<ar.length;i++) {
