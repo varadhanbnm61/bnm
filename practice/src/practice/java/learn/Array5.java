@@ -22,7 +22,7 @@ public class Array5 {
 	}
 	System.out.println(total);
 	for(int i=0;i<ar.length;i +=2){
-		
+		 
 		System.out.println(ar[i]);
 		
 	}
